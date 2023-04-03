@@ -12,7 +12,7 @@ if(age<=0){
 }
 else(console.log(age))
 
-let userConf=confirm("press cancel to skip the welcoming message?")
+let userConf=confirm("press cancel to skip the welcoming message")
 
 if(userConf==true){
 
