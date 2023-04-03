@@ -12,7 +12,7 @@ if(age<=0){
 }
 else(console.log(age))
 
-let userConf=confirm("press cancel to skip the welcoming message")
+let userConf=confirm("press cancel to skip the welcoming message or ok to show")
 
 if(userConf==true){
 
@@ -23,7 +23,7 @@ if(gender=="male"){
 
     alert ("Welcome Ms "+userName);
 }
-if(gender!=="male"&&gender!=="female"){
+ else if(gender!=="male"&&gender!=="female"){
 alert("Welcome "+ userName);
 
 }}
