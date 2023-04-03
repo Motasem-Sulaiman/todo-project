@@ -24,6 +24,6 @@ if(gender=="male"){
     alert ("Welcome Ms "+userName);
 }
 if(gender!=="male"&&gender!=="female"){
-alert("Please enter (male) or (female)");
+alert("Welcome "+ userName);
 
 }}
