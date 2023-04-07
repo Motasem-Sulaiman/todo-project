@@ -1,4 +1,4 @@
-'use strickt'
+'use strict'
 let userName=prompt("Please enter your username");
 console.log(userName)
 let gender=prompt("Please enter your gender (male or female)");
@@ -61,5 +61,4 @@ for(let i=0;i<=arr.length;i++)
 
 
 console.log(answerQues(myArr));
-
-
+console.log("HELLO")
